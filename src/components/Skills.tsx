@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Server, Layout, Database, Cloud, Wrench, TerminalSquare } from "lucide-react";
+import { Server, Layout, Database, Cloud, Wrench, TerminalSquare, Sparkles } from "lucide-react";
 
 export const Skills = () => {
     const categories = [
         {
-            title: "Frontend Development",
+            title: "Frontend & UI/UX",
             icon: <Layout className="w-6 h-6 text-accent" />,
-            skills: ["React (Avanzado)", "Next.js", "Angular (Intermedio)", "React Native", "TypeScript/TSX", "Tailwind CSS", "Bootstrap", "Shadcn UI", "HTML5/CSS3"]
+            skills: ["React (Avanzado)", "Next.js", "Dashboards Animados", "Angular", "React Native", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn UI"]
         },
         {
             title: "Backend Development",
@@ -28,12 +28,17 @@ export const Skills = () => {
         {
             title: "Arquitectura & Metodologías",
             icon: <TerminalSquare className="w-6 h-6 text-orange-400" />,
-            skills: ["Domain-Driven Design (DDD)", "Arquitectura Hexagonal", "Microservicios", "Agile/Scrum", "Test-Driven Development", "Code Reviews"]
+            skills: ["Arquitectura Ágil", "Domain-Driven Design (DDD)", "Arquitectura Hexagonal", "MVC", "Microservicios", "Scrum", "Test-Driven Development (TDD)"]
         },
         {
             title: "Herramientas & Otros",
             icon: <Wrench className="w-6 h-6 text-amber-400" />,
             skills: ["Git & GitHub Actions", "Tanstack Query", "Supabase", "Firebase", "WebSockets", "Apache Kafka", "Data Analysis (Pandas, NumPy)"]
+        },
+        {
+            title: "Inteligencia Artificial para Devs",
+            icon: <Sparkles className="w-6 h-6 text-yellow-300" />,
+            skills: ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT (GPT-4o)", "Cursor IDE", "GitHub Copilot", "V0 by Vercel"]
         }
     ];
 

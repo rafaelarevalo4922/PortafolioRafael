@@ -6,6 +6,13 @@ import { ExternalLink, Trophy, Award, Medal } from "lucide-react";
 export const Projects = () => {
     const projects = [
         {
+            title: "Secure Tech Omega (En Progreso)",
+            description: "Plataforma escalable para venta de software. Destaca por el uso de arquitectura ágil y dashboards interactivos animados.",
+            image: "bg-gradient-to-br from-indigo-900 to-slate-900",
+            tags: ["Next.js", "Arquitectura Ágil", "Dashboards Animados", "Full-Stack"],
+            link: "https://secure-tech-omega.vercel.app/"
+        },
+        {
             title: "CRM Inmobiliario Avanzado",
             description: "Sistema integral para la gestión de clientes, propiedades y ventas en tiempo real.",
             image: "bg-gradient-to-br from-blue-900 to-slate-900",
@@ -75,7 +82,14 @@ export const Projects = () => {
 
                                 <div className="p-6 flex flex-col flex-grow">
                                     <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors">
-                                        {project.title}
+                                        {project.link ? (
+                                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline">
+                                                {project.title}
+                                                <ExternalLink className="w-5 h-5 flex-shrink-0" />
+                                            </a>
+                                        ) : (
+                                            project.title
+                                        )}
                                     </h3>
                                     <p className="text-foreground/70 mb-6 flex-grow text-sm">
                                         {project.description}

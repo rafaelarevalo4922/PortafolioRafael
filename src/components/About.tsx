@@ -30,14 +30,16 @@ export const About = () => {
                     <div className="grid lg:grid-cols-2 gap-12">
                         <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
                             <p>
-                                Soy un desarrollador Full Stack con experiencia en la construcción de
-                                aplicaciones web modernas, APIs escalables y soluciones basadas en
-                                arquitecturas limpias como DDD y Hexagonal.
+                                Soy un desarrollador Full Stack especializado en la construcción de
+                                aplicaciones web modernas, APIs escalables y soluciones empresariales
+                                basadas en metodologías ágiles y arquitecturas limpias (DDD, Hexagonal, MVC).
                             </p>
                             <p>
                                 Me adapto rápidamente a proyectos en marcha y a código legado,
-                                aportando orden, claridad y mejoras técnicas. He trabajado con tecnologías
-                                como React, Angular, Node.js, C#, Python y bases de datos SQL/NoSQL.
+                                aportando orden, claridad y mejoras técnicas. Destaco especialmente en el
+                                diseño y desarrollo de <strong className="text-accent font-medium">Dashboards Interactivos y Animados</strong>,
+                                creando ecosistemas completos de principio a fin. He trabajado con tecnologías
+                                como React, Next.js, Node.js, C#, Python y bases de datos SQL/NoSQL.
                             </p>
                             <p>
                                 He participado en proyectos de empresas que manejan procesos críticos como
