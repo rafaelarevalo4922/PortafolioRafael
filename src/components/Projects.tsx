@@ -6,7 +6,7 @@ import { ExternalLink, Trophy, Award, Medal } from "lucide-react";
 export const Projects = () => {
     const projects = [
         {
-            title: "Secure Tech Omega (En Progreso)",
+            title: "Secure Tech Omega (Finalizada)",
             description: "Plataforma escalable para venta de software. Destaca por el uso de arquitectura ágil y dashboards interactivos animados.",
             image: "bg-gradient-to-br from-indigo-900 to-slate-900",
             tags: ["Next.js", "Arquitectura Ágil", "Dashboards Animados", "Full-Stack"],
@@ -36,7 +36,7 @@ export const Projects = () => {
         {
             title: "Huawei Developer Competition",
             subtitle: "Trofeo & Reconocimiento (2024)",
-            description: "Ganador de la competencia latinoamericana desarrollando una aplicación multiplataforma innovadora usando React Native, Node.js y TSX.",
+            description: "Premio obtenido por realizar un sistema para la detección de zonas de alto riesgo. Es una aplicación sobre registro de accidentes en tiempo real donde se puede observar y luego generar datos históricos con eso para encontrar las zonas de más alto riesgo.",
             icon: <Trophy className="w-8 h-8 text-yellow-400" />
         },
         {

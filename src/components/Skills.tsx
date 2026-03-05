@@ -34,11 +34,6 @@ export const Skills = () => {
             title: "Herramientas & Otros",
             icon: <Wrench className="w-6 h-6 text-amber-400" />,
             skills: ["Git & GitHub Actions", "Tanstack Query", "Supabase", "Firebase", "WebSockets", "Apache Kafka", "Data Analysis (Pandas, NumPy)"]
-        },
-        {
-            title: "Inteligencia Artificial para Devs",
-            icon: <Sparkles className="w-6 h-6 text-yellow-300" />,
-            skills: ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT (GPT-4o)", "Cursor IDE", "GitHub Copilot", "V0 by Vercel"]
         }
     ];
 
